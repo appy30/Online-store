@@ -19,5 +19,5 @@ class index(View):
         data['products'] = prds
         data['categories'] = ctrs
         da = request.session.get('cusemail')
-        return render(request, 'index.html', data, )
+        return render(request, 'index.html', data)
 
